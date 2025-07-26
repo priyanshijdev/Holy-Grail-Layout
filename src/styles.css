@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.navbar,
+.content,
+.sidebar,
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+.header {
+  background-color: aquamarine;
+}
+
+.columns {
+  display: flex;
+  flex-grow: 1;
+}
+.navbar {
+  flex-shrink: 0;
+  background-color: chocolate;
+}
+.content {
+  flex-grow: 1;
+  background-color: coral;
+}
+.sidebar {
+  flex-shrink: 0;
+  background-color: chocolate;
+}
+
+.footer {
+  background-color: aqua;
+}
